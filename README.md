@@ -28,7 +28,10 @@ DLDIR="YOUR DYING LIGHT COMPATDATA DIRECTORY"
 ```
 - Extract the mod you downloaded into a folder of your choice (For my mods, I've created a folder named DLMods in my Documents folder)
 - Extract the "Online mod usage" file and put the dide_mod.ini & dsound.dll inside your Dying Light installed folder 
-- Open wine configuration for the Dying Light prefix: STEAM_COMPAT_CLIENT_INSTALL_PATH="${STEAMINSTALLDIR}" STEAM_COMPAT_DATA_PATH="${DLDIR}" WINEPREFIX="${DLDIR}/pfx" "${PROTONDIR}/proton" run winecfg
+- Open wine configuration for the Dying Light prefix:
+```
+STEAM_COMPAT_CLIENT_INSTALL_PATH="${STEAMINSTALLDIR}" STEAM_COMPAT_DATA_PATH="${DLDIR}" WINEPREFIX="${DLDIR}/pfx" "${PROTONDIR}/proton" run winecfg
+```
 - Set library override for dsound to (builtin,override)
 - Success
 
